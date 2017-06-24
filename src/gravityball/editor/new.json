@@ -1,0 +1,7 @@
+{
+"wall":{"name":"wall","y1":"0","x1":"0","y2":"0","x2":"0.5"},
+"thorn":{"locationY":"0","locationX":"0","name":"thorn","radius":"0.1"},
+"coin":{"locationY":"0","locationX":"0","name":"coin","radius":"0.1"},
+"final":{"locationY":"0","locationX":"0","name":"final","radius":"0.1"},
+"updateobject":{"locationY":"0","locationX":"0","name":"updateobject","radius":"0.1"}
+}

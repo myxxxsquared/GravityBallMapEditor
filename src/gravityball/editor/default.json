@@ -1,0 +1,54 @@
+{
+	"background_sound" : "Sound/back1.ogg",
+	"ball" : {
+		"radius" : "0.08",
+		"locationX" : "0",
+		"locationY" : "0",
+		"locationZ" : "0.08",
+		"g" : "9.0",
+		"mass" : "1",
+		"miu" : "0.5",
+		"momentOfInertia" : "0.001",
+		"alpha_v" : "0.03",
+		"alpha_m" : "0.03"
+	},
+	"objects" : [
+		{
+			"name" : "ground"
+		},
+		{
+			"name" : "wall",
+			"x1" : "-1.0",
+			"y1" : "-1.0",
+			"x2" : "1.0",
+			"y2" : "-1.0"
+		},
+		{
+			"name" : "wall",
+			"x1" : "-1.0",
+			"y1" : "-1.0",
+			"x2" : "-1.0",
+			"y2" : "1.0"
+		},
+		{
+			"name" : "wall",
+			"x1" : "1.0",
+			"y1" : "1.0",
+			"x2" : "1.0",
+			"y2" : "-1.0"
+		},
+		{
+			"name" : "wall",
+			"x1" : "1.0",
+			"y1" : "1.0",
+			"x2" : "-1.0",
+			"y2" : "1.0"
+		},
+		{
+			"name" : "final",
+			"locationX" : "-0.5",
+			"locationY" : "0.5",
+			"radius" : "0.1"
+		}
+	]
+}
