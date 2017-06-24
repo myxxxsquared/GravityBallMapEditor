@@ -92,7 +92,7 @@ public class MainWindow extends JFrame {
 				String name = (String) n;
 				MenuItem insertNew = new MenuItem(name);
 				insertNew.addActionListener((ActionEvent e) -> {
-					scenes.addObject(newobjects.getJSONObject(name));
+					scenes.addObject(new JSONObject(newobjects.getJSONObject(name).toString()));
 					updateAll();
 				});
 				menuInsert.add(insertNew);
